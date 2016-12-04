@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ToDoMapList</title>
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+
+<h4>Read Me : the idea is to add a marker on the map based on the user input and to add the postion name to the to-do list \
+  the marker add still not working for now but the to-do list working and I can add any marker on the map   </h4>
+  <app-root>Loading...</app-root>
+
+
+<br>
+
+  <label class="label" for="lat"> latitude: </label>
+  <input class="lat" id="lat" type="text">
+  <label class="label" for="long"> longitude: </label>
+  <input class="long" id="long" type="text">
+  <label class="label" for="name"> Location Name: </label>
+  <input class="name" id="name" type="text">
+  <button class="btn" onclick="addTodoItem()">Add marker</button>
+
+
+  <div style="margin-left: 700px ; margin-top: -500px ; height: 20px">
+    <h2>ToDo-list of locations name </h2>
+    <br>
+    <ul id="locations-list">
+      <li class="location-item">jerusalem</li>
+      <li class="location-item">Haifa</li>
+      <li class="location-item">Tel-Aviv</li>
+    </ul>
+  </div>
+
+</body>
+</html>

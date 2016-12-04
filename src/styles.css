@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+div {
+  width: 200px;
+
+}
+
+h2 {
+  width: 400px;
+color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+
+.btn {
+  background: #5f62ff;
+  color: #fff;
+  padding: 3px 10px;
+  margin: 0 0 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+.label{
+  color: darkgreen;
+}
+
+
